@@ -1,15 +1,29 @@
-<h1>EJEMPLO DE GIT + GITHUB + HEROKU         </h1><br /><hr>
-<h2>GIT EN MI MAQUINA                        </h2><br />
-<h3>GITHUB EN MI CUENTA alfonso-fm/feria_code</h3><br />
-<h4>HEROKU EN MI CUENTA heroku/ferianueva    </h4><br /><hr>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+  
+<div class="container">
+  <h1>My First Bootstrap Page</h1>
+  <p>This part is inside a .container class.</p> 
+  <p>The .container class provides a responsive fixed width container.</p>           
+</div>
+        <?php
+        // Muestra toda la información, por defecto INFO_ALL
+        phpinfo();
 
-<?php
+        // Muestra solamente la información de los módulos.
+        // phpinfo(8) hace exactamente lo mismo.
+        phpinfo(INFO_MODULES);
 
-// Muestra toda la información, por defecto INFO_ALL
-phpinfo();
+        ?>
 
-// Muestra solamente la información de los módulos.
-// phpinfo(8) hace exactamente lo mismo.
-phpinfo(INFO_MODULES);
-
-?>
+</body>
+</html>
